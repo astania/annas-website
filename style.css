@@ -1,3 +1,58 @@
 body {
-    background: blueviolet;
+    background: rgb(161, 21, 21);
+    font-family: Helvetica;
+    text-align: center;   
 }
+#header {
+    background: rgb(228, 224, 224);
+    height: 150px;
+    text-decoration: underline;
+}
+
+#movieList {
+    color:rgb(228, 224, 224);
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ol { display: inline-block; text-align: left; }
+
+table, th, td {
+    border: 3px solid rgb(228, 224, 224);
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th {
+    height: 40px;
+}
+
+tr:hover {background-color: mediumvioletred;}
+
+#musicList{
+    color:rgb(228, 224, 224);
+}
+
+h1 {
+    color: rgb(161, 21, 21);
+    font-family: impact;
+    font-size: 4em;
+}
+
+h2, h3 {
+    color:rgb(228, 224, 224)
+}
+
+h4 {
+    color:rgb(161, 21, 21);
+}
+
+#footer {
+    background-color: rgb(228, 224, 224);
+    height: 100px;
+    padding-top: 10px;
+}
+
+
