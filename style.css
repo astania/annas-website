@@ -1,13 +1,17 @@
 body {
-    background: rgb(161, 21, 21);
+    background: rgb(161, 21, 149);
     font-family: Helvetica;
     text-align: center;   
 }
 #header {
-    background: rgb(228, 224, 224);
+    background: white;
     height: 150px;
     text-decoration: underline;
 }
+a:link {color: #e91bab}
+a:visited {color: #e91bab}
+a:hover {color: #eca31a}
+a:active {color: rgb(161, 21, 21)}
 
 #movieList {
     color:rgb(228, 224, 224);
@@ -25,11 +29,13 @@ table, th, td {
     margin-right: auto;
 }
 
+
 th {
     height: 40px;
 }
 
-tr:hover {background-color: mediumvioletred;}
+
+tr:hover {background-color: black;}
 
 #musicList{
     color:rgb(228, 224, 224);
@@ -50,7 +56,7 @@ h4 {
 }
 
 #footer {
-    background-color: rgb(228, 224, 224);
+    background-color: white;
     height: 100px;
     padding-top: 10px;
 }

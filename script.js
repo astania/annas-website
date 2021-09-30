@@ -16,6 +16,7 @@ function imageTwo() {
 
 
 
+
 // const favMovies = document.createElement("div");
 // favMovies.setAttribute('id', 'movies');
 // document.querySelector("body").appendChild(favMovies)
